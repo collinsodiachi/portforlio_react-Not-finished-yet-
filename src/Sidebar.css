@@ -1,0 +1,94 @@
+/*General Styles*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font: normal 16px sans-serif;
+	color: #555;
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    width:40%;
+    height: 100vh;
+    background-color:#1c94e0;
+    /*#1da1f2*/
+}
+ul, nav{
+    list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	opacity: 0.75;
+	color: #fff;
+}
+
+a:hover {
+	opacity: 1;
+}
+/*sidebar 3columns*/
+.nav{
+    flex:1;
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 20px;
+}
+.nav ul{
+    width: 100%;
+    justify-content:center;
+}
+.nav ul li{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sidebar_profile{
+    flex:1;
+    text-align: center;
+    padding-top:60px;
+     visibility: hidden;
+}
+.sidebar_profile_reveal{
+    visibility: visible;
+}
+.skill_bar{
+    flex:1;
+    padding:20px;
+}
+.sidebar_profile img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    text-align: center;
+    
+}
+.sidebar_profile h2 {
+	font: bold 30px "Open Sans", sans-serif;
+	margin:0;
+}
+.sidebar_profile p{
+	font: normal 18px "Open Sans", sans-serif;
+	margin-bottom: 40px;
+}
+p {
+  color : white;
+}
+.back {
+    background: none !important;
+}
+
+.skill {
+    background: linear-gradient(90deg, #81EBF5 0%, #31B1CF 100%);
+    text-align: right;
+    padding-right: 20px;
+    line-height: 20px;
+    border-radius: 0 20px 20px 0;
+}
+.none{
+    color:red;
+}

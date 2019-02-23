@@ -1,0 +1,29 @@
+.main{
+    width:60%;
+    height: auto;
+    margin-left:40%;
+}
+.profile img{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+}
+.profile h2 {
+	font: bold 30px "Open Sans", sans-serif;
+	margin:0;
+}
+.profile p{
+	font: normal 18px "Open Sans", sans-serif;
+	margin-bottom: 40px;
+}
+section {
+    min-height:110vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+section:not(.hero):nth-child(even) {
+	background-color: #f5f5f5;
+}
